@@ -1,0 +1,8 @@
+  171  git commit -m 'adding oops2'
+  172  git push
+  173  rm oops2
+  174  git add oops2
+  175  git commit -m 'removing oops2'
+  176  git push
+  185  man cp
+  186  history
