@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
+import sys
 
-var = False
+var = sys.argv[1]
 
-if bool(var) == True:
+falsethings = ('0', 'None', 'False', '[]', '()', '')
+
+if var not in falsethings:
 	print('value is true')
 else:
 	print('value is not true')
