@@ -1,0 +1,12 @@
+1. strings, tuples, lists
+2. 842 bp
+3. NA
+4. A: 167, T: 187, G: 218, C: 270
+5. NA
+6. see script:
+	#A: 167, #T: 187, #G: 218, #C: 270
+7. see script
+8. same script as above
+9. see script:
+	AT content: 0.42042755344418054
+	GC content: 0.5795724465558194
