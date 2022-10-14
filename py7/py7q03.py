@@ -3,5 +3,5 @@ import re
 
 with open('Python_07.fasta','r') as file:
 	fasta = file.read()
-	for header in re.finditer('>(\S+)\s*(.*)\n',fasta):
+	for header in re.finditer('>(\S+)[ \r\t]*(.*)\n',fasta):
 		print(f'id: {header.group(1)}\tdesc: {header.group(2)}')

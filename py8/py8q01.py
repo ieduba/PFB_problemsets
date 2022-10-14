@@ -7,7 +7,7 @@ with open(infile,'r') as file:
 	fasta = file.read()
 	
 	seqs = {}
-	for gene in re.finditer('>(\S*)\s*(.*)\n([ATCG\n]+)',fasta):
+	for gene in re.finditer('>(\S*)[ \r\t]*(.*)\n([ATCG\n]+)',fasta):
 		seqs[gene.group(1)] = {}
 		sequence = gene.group(3)
 		unique_seq = set(sequence)

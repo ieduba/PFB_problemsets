@@ -32,7 +32,7 @@ with open(infile,'r') as file, open('Python_08.codons-6frames.nt','w') as writec
 	fasta = file.read()
 	
 	seqs = {}
-	for gene in re.finditer('>(\S*)\s*(.*)\n([ATCG\n]+)',fasta):
+	for gene in re.finditer('>(\S*)[ \r\t]*(.*)\n([ATCG\n]+)',fasta):
 		seqs[gene.group(1)] = {}
 		sequence = gene.group(3).replace('\n','')
 		comp = sequence.replace('A','t').replace('T','a').replace('C','g').replace('G','c').upper()
