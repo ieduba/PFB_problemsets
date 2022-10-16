@@ -1,0 +1,10 @@
+Yru10476I (Yru12986I)             AGGAAG
+Yru10476I (Yru12986I)             CTTCCT
+Yru12986I                         AGGAAG
+Yru12986I                         CTTCCT
+ZanI (EcoRII)                     CC^WGG
+ZhoI (ClaI)                       AT^CGAT
+ZraI (AatII)                      GAC^GTC
+ZrmI (ScaI)                       AGT^ACT
+Zsp2I (AvaIII)                    ATGCA^T
+

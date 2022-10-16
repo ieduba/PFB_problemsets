@@ -1,0 +1,10 @@
+AaaI (XmaIII)                     C^GGCCG
+AacLI (BamHI)                     GGATCC
+AaeI (BamHI)                      GGATCC
+AagI (ClaI)                       AT^CGAT
+Aam10684II (M.SspLM7II)           ACCGAG
+Aam10684II (M.SspLM7II)           CTCGGT
+AanI (PsiI)                       TTA^TAA
+AaqI (ApaLI)                      GTGCAC
+AarI                              CACCTGCNNNN^
+AarI                              ^NNNNNNNNGCAGGTG
