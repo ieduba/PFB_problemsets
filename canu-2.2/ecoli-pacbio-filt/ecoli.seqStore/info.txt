@@ -1,0 +1,11 @@
+     Reads        Bases Read Type
+---------- ------------ ----------------------------------------
+      6274            - total-reads
+      6274     57815765 raw
+         0            0 raw-trimmed
+      6274     41534741 raw-compressed
+         0            0 raw-compressed-trimmed
+      6072     54638844 corrected
+      4789     35741444 corrected-trimmed
+      6072     39836964 corrected-compressed
+      4789     26338529 corrected-compressed-trimmed

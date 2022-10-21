@@ -1,0 +1,164 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 4 (v5.18.4) built for darwin-thread-multi-2level
+
+Found java:
+   /Users/student/miniconda/bin/java
+   openjdk version "11.0.13" 2021-10-19
+
+Found canu:
+   /Users/student/PFB_problemsets/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+sqCache: found 10330 corrected reads with 91164215 bases.
+Initializing 8 work areas.
+Loading reference reads 1-11029 inclusive.
+Loading 9065 reads and 79998252 bases from range 1-11029 inclusive.
+Loading        1 <     4567 <    11029 -   41.40% - 0.01 GBLoading        1 <     9134 <    11029 -   82.82% - 0.02 GBLoading        1 <    11029 <    11029 -  100.00% - 0.02 GB
+Build_Hash_Index from 1 to 11029
+
+Found 9065 reads with length 80007317 to load; 1964 skipped by being too short; 0 skipped per library restriction
+String_Ct:           0/       11029  totalLen:        5952/    80007317  Hash_Entries:        5930/    70464307  Load: 0.01%
+HASH LOADING STOPPED: curID           11029 out of        11029
+HASH LOADING STOPPED: length       80007317 out of     80007317 max.
+HASH LOADING STOPPED: entries      14008025 out of     70464307 max (load 15.90).
+
+Read 557 kmers to mark to skip
+
+
+Range: 1-11029.  Store has 12528 reads.
+Chunk: 173 reads/thread -- (G.endRefID=11029 - G.bgnRefID=1) / G.Num_PThreads=8 / 8
+
+Starting 1-11029 with 173 per thread
+
+Thread 03 processes reads 520-692
+Thread 01 processes reads 174-346
+Thread 00 processes reads 1-173
+Thread 02 processes reads 347-519
+Thread 05 processes reads 866-1038
+Thread 04 processes reads 693-865
+Thread 07 processes reads 1212-1384
+Thread 06 processes reads 1039-1211
+Thread 03 writes    reads 520-692 (6473 overlaps 6473/15907/0 kmer hits with/without overlap/skipped)
+Thread 03 processes reads 1385-1557
+Thread 06 writes    reads 1039-1211 (5414 overlaps 5414/9960/0 kmer hits with/without overlap/skipped)
+Thread 06 processes reads 1558-1730
+Thread 01 writes    reads 174-346 (5626 overlaps 5626/13180/0 kmer hits with/without overlap/skipped)
+Thread 01 processes reads 1731-1903
+Thread 04 writes    reads 693-865 (5802 overlaps 5802/9887/0 kmer hits with/without overlap/skipped)
+Thread 04 processes reads 1904-2076
+Thread 00 writes    reads 1-173 (6408 overlaps 6408/13230/0 kmer hits with/without overlap/skipped)
+Thread 00 processes reads 2077-2249
+Thread 07 writes    reads 1212-1384 (6737 overlaps 6737/11017/0 kmer hits with/without overlap/skipped)
+Thread 07 processes reads 2250-2422
+Thread 05 writes    reads 866-1038 (5170 overlaps 5170/12405/0 kmer hits with/without overlap/skipped)
+Thread 05 processes reads 2423-2595
+Thread 02 writes    reads 347-519 (5495 overlaps 5495/10709/0 kmer hits with/without overlap/skipped)
+Thread 02 processes reads 2596-2768
+Thread 06 writes    reads 1558-1730 (5117 overlaps 5117/11657/0 kmer hits with/without overlap/skipped)
+Thread 06 processes reads 2769-2941
+Thread 00 writes    reads 2077-2249 (4542 overlaps 4542/9196/0 kmer hits with/without overlap/skipped)
+Thread 00 processes reads 2942-3114
+Thread 03 writes    reads 1385-1557 (6051 overlaps 6051/15242/0 kmer hits with/without overlap/skipped)
+Thread 03 processes reads 3115-3287
+Thread 04 writes    reads 1904-2076 (5012 overlaps 5012/11023/0 kmer hits with/without overlap/skipped)
+Thread 04 processes reads 3288-3460
+Thread 01 writes    reads 1731-1903 (6028 overlaps 6028/9973/0 kmer hits with/without overlap/skipped)
+Thread 01 processes reads 3461-3633
+Thread 05 writes    reads 2423-2595 (5002 overlaps 5002/8518/0 kmer hits with/without overlap/skipped)
+Thread 05 processes reads 3634-3806
+Thread 02 writes    reads 2596-2768 (4426 overlaps 4426/8865/0 kmer hits with/without overlap/skipped)
+Thread 02 processes reads 3807-3979
+Thread 07 writes    reads 2250-2422 (5079 overlaps 5079/14200/0 kmer hits with/without overlap/skipped)
+Thread 07 processes reads 3980-4152
+Thread 01 writes    reads 3461-3633 (3306 overlaps 3306/10306/0 kmer hits with/without overlap/skipped)
+Thread 01 processes reads 4153-4325
+Thread 05 writes    reads 3634-3806 (4928 overlaps 4928/9728/0 kmer hits with/without overlap/skipped)
+Thread 05 processes reads 4326-4498
+Thread 00 writes    reads 2942-3114 (6200 overlaps 6200/12747/0 kmer hits with/without overlap/skipped)
+Thread 00 processes reads 4499-4671
+Thread 04 writes    reads 3288-3460 (4217 overlaps 4217/9069/0 kmer hits with/without overlap/skipped)
+Thread 04 processes reads 4672-4844
+Thread 06 writes    reads 2769-2941 (5257 overlaps 5257/11871/0 kmer hits with/without overlap/skipped)
+Thread 06 processes reads 4845-5017
+Thread 02 writes    reads 3807-3979 (4041 overlaps 4041/8501/0 kmer hits with/without overlap/skipped)
+Thread 02 processes reads 5018-5190
+Thread 03 writes    reads 3115-3287 (4923 overlaps 4923/10724/0 kmer hits with/without overlap/skipped)
+Thread 03 processes reads 5191-5363
+Thread 07 writes    reads 3980-4152 (3954 overlaps 3954/11682/0 kmer hits with/without overlap/skipped)
+Thread 07 processes reads 5364-5536
+Thread 01 writes    reads 4153-4325 (3787 overlaps 3787/7488/0 kmer hits with/without overlap/skipped)
+Thread 01 processes reads 5537-5709
+Thread 06 writes    reads 4845-5017 (3165 overlaps 3165/5499/0 kmer hits with/without overlap/skipped)
+Thread 06 processes reads 5710-5882
+Thread 00 writes    reads 4499-4671 (3852 overlaps 3852/8382/0 kmer hits with/without overlap/skipped)
+Thread 00 processes reads 5883-6055
+Thread 04 writes    reads 4672-4844 (2998 overlaps 2998/6914/0 kmer hits with/without overlap/skipped)
+Thread 04 processes reads 6056-6228
+Thread 02 writes    reads 5018-5190 (3532 overlaps 3532/8935/0 kmer hits with/without overlap/skipped)
+Thread 02 processes reads 6229-6401
+Thread 05 writes    reads 4326-4498 (4181 overlaps 4181/10383/0 kmer hits with/without overlap/skipped)
+Thread 05 processes reads 6402-6574
+Thread 03 writes    reads 5191-5363 (3558 overlaps 3558/7020/0 kmer hits with/without overlap/skipped)
+Thread 03 processes reads 6575-6747
+Thread 07 writes    reads 5364-5536 (3195 overlaps 3195/8044/0 kmer hits with/without overlap/skipped)
+Thread 07 processes reads 6748-6920
+Thread 01 writes    reads 5537-5709 (2820 overlaps 2820/7446/0 kmer hits with/without overlap/skipped)
+Thread 01 processes reads 6921-7093
+Thread 06 writes    reads 5710-5882 (2986 overlaps 2986/7068/0 kmer hits with/without overlap/skipped)
+Thread 06 processes reads 7094-7266
+Thread 04 writes    reads 6056-6228 (2680 overlaps 2680/6135/0 kmer hits with/without overlap/skipped)
+Thread 04 processes reads 7267-7439
+Thread 00 writes    reads 5883-6055 (2876 overlaps 2876/5066/0 kmer hits with/without overlap/skipped)
+Thread 00 processes reads 7440-7612
+Thread 02 writes    reads 6229-6401 (2660 overlaps 2660/6886/0 kmer hits with/without overlap/skipped)
+Thread 02 processes reads 7613-7785
+Thread 05 writes    reads 6402-6574 (2626 overlaps 2626/5178/0 kmer hits with/without overlap/skipped)
+Thread 05 processes reads 7786-7958
+Thread 03 writes    reads 6575-6747 (2707 overlaps 2707/6421/0 kmer hits with/without overlap/skipped)
+Thread 03 processes reads 7959-8131
+Thread 07 writes    reads 6748-6920 (2400 overlaps 2400/6651/0 kmer hits with/without overlap/skipped)
+Thread 07 processes reads 8132-8304
+Thread 01 writes    reads 6921-7093 (2684 overlaps 2684/6113/0 kmer hits with/without overlap/skipped)
+Thread 01 processes reads 8305-8477
+Thread 06 writes    reads 7094-7266 (2330 overlaps 2330/4964/0 kmer hits with/without overlap/skipped)
+Thread 06 processes reads 8478-8650
+Thread 00 writes    reads 7440-7612 (2082 overlaps 2082/4515/0 kmer hits with/without overlap/skipped)
+Thread 00 processes reads 8651-8823
+Thread 02 writes    reads 7613-7785 (2083 overlaps 2083/4800/0 kmer hits with/without overlap/skipped)
+Thread 02 processes reads 8824-8996
+Thread 04 writes    reads 7267-7439 (2575 overlaps 2575/4719/0 kmer hits with/without overlap/skipped)
+Thread 04 processes reads 8997-9169
+Thread 03 writes    reads 7959-8131 (1487 overlaps 1487/3717/0 kmer hits with/without overlap/skipped)
+Thread 03 processes reads 9170-9342
+Thread 07 writes    reads 8132-8304 (1762 overlaps 1762/3191/0 kmer hits with/without overlap/skipped)
+Thread 07 processes reads 9343-9515
+Thread 05 writes    reads 7786-7958 (1826 overlaps 1826/4972/0 kmer hits with/without overlap/skipped)
+Thread 05 processes reads 9516-9688
+Thread 01 writes    reads 8305-8477 (1587 overlaps 1587/3288/0 kmer hits with/without overlap/skipped)
+Thread 01 processes reads 9689-9861
+Thread 00 writes    reads 8651-8823 (1533 overlaps 1533/2417/0 kmer hits with/without overlap/skipped)
+Thread 00 processes reads 9862-10034
+Thread 06 writes    reads 8478-8650 (1519 overlaps 1519/4264/0 kmer hits with/without overlap/skipped)
+Thread 06 processes reads 10035-10207
+Thread 04 writes    reads 8997-9169 (1149 overlaps 1149/3394/0 kmer hits with/without overlap/skipped)
+Thread 04 processes reads 10208-10380
+Thread 02 writes    reads 8824-8996 (1271 overlaps 1271/3671/0 kmer hits with/without overlap/skipped)
+Thread 02 processes reads 10381-10553
+Thread 05 writes    reads 9516-9688 (823 overlaps 823/1921/0 kmer hits with/without overlap/skipped)
+Thread 05 processes reads 10554-10726
+Thread 03 writes    reads 9170-9342 (1176 overlaps 1176/3245/0 kmer hits with/without overlap/skipped)
+Thread 03 processes reads 10727-10899
+Thread 07 writes    reads 9343-9515 (1136 overlaps 1136/2455/0 kmer hits with/without overlap/skipped)
+Thread 07 processes reads 10900-11029
+Thread 05 writes    reads 10554-10726 (185 overlaps 185/332/0 kmer hits with/without overlap/skipped)
+Thread 06 writes    reads 10035-10207 (509 overlaps 509/1324/0 kmer hits with/without overlap/skipped)
+Thread 02 writes    reads 10381-10553 (364 overlaps 364/812/0 kmer hits with/without overlap/skipped)
+Thread 04 writes    reads 10208-10380 (415 overlaps 415/1039/0 kmer hits with/without overlap/skipped)
+Thread 00 writes    reads 9862-10034 (681 overlaps 681/1561/0 kmer hits with/without overlap/skipped)
+Thread 03 writes    reads 10727-10899 (134 overlaps 134/386/0 kmer hits with/without overlap/skipped)
+Thread 01 writes    reads 9689-9861 (932 overlaps 932/2082/0 kmer hits with/without overlap/skipped)
+Thread 07 writes    reads 10900-11029 (37 overlaps 37/95/0 kmer hits with/without overlap/skipped)
+Bye.

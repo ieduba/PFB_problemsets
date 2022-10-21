@@ -1,0 +1,30 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 4 (v5.18.4) built for darwin-thread-multi-2level
+
+Found java:
+   /Users/student/miniconda/bin/java
+   openjdk version "11.0.13" 2021-10-19
+
+Found canu:
+   /Users/student/PFB_problemsets/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 2 based on command line options.
+Read_Frags()-- Loading target reads 6058 through 11290 with 37403118 bases.
+Read_Frags()-- 1.985 GB for bases, votes and info.
+
+Read_Olaps()-- Loading 141373 overlaps.
+Read_Olaps()-- 0.002 GB for overlaps..
+
+extractReads()-- Loading reads 1 to 11290 (9180 reads with 79250378 bases) overlaps 0 through 141373.
+extractReads()-- Loaded.
+processReads()-- Launching compute.
+processReads()-- Waiting for compute.
+
+Passed overlaps =     141083  99.7949%
+Failed overlaps =        290   0.2051%
+Output file: ./00002.red.WORKING
+
+Bye.

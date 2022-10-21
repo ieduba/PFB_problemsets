@@ -1,0 +1,33 @@
+
+Found perl:
+   /usr/bin/perl
+   This is perl 5, version 18, subversion 4 (v5.18.4) built for darwin-thread-multi-2level
+
+Found java:
+   /Users/student/miniconda/bin/java
+   openjdk version "11.0.13" 2021-10-19
+
+Found canu:
+   /Users/student/PFB_problemsets/canu-2.2/bin/canu
+   canu 2.2
+
+
+Creating library 'ecoli-filtered-0.9' for PacBio raw reads.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Loaded         11290  95.6%    104368520  99.7%  /Users/student/PFB_problemsets/canu-2.2/ecoli-filtered-0.9.fastq
+Short            522   4.4%       310940   0.3%
+Warnings           1
+
+
+All reads processed.
+
+               reads               bases
+---------- --------- ------ ------------ ------
+Loaded         11290  95.6%    104368520  99.7%
+Short            522   4.4%       310940   0.3%
+Warnings           1
+
+
+Bye.
